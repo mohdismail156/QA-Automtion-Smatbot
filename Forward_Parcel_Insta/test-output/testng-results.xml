@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Navigating to https://www.instagram.com]]>
+    </line>
+    <line>
+      <![CDATA[Logging into instagram account]]>
+    </line>
+    <line>
+      <![CDATA[Searching for forward parcel bot]]>
+    </line>
+    <line>
+      <![CDATA[Entering menu]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on send icon]]>
+    </line>
+    <line>
+      <![CDATA[Checking the question text here if it matches, entering the name]]>
+    </line>
+    <line>
+      <![CDATA[Entering the send icon]]>
+    </line>
+    <line>
+      <![CDATA[checking the next question text here if it matches, then closing the bot]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-04T10:42:21 IST" name="Default suite" finished-at="2024-04-04T10:43:33 IST" duration-ms="71908">
+    <groups>
+    </groups>
+    <test started-at="2024-04-04T10:42:21 IST" name="Default test" finished-at="2024-04-04T10:43:33 IST" duration-ms="71908">
+      <class name="forwardparcelinsta.Forward_Insta">
+        <test-method signature="insta()[pri:0, instance:forwardparcelinsta.Forward_Insta@51e69659]" started-at="2024-04-04T10:42:21 IST" name="insta" finished-at="2024-04-04T10:43:33 IST" duration-ms="71865" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigating to https://www.instagram.com]]>
+            </line>
+            <line>
+              <![CDATA[Logging into instagram account]]>
+            </line>
+            <line>
+              <![CDATA[Searching for forward parcel bot]]>
+            </line>
+            <line>
+              <![CDATA[Entering menu]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on send icon]]>
+            </line>
+            <line>
+              <![CDATA[Checking the question text here if it matches, entering the name]]>
+            </line>
+            <line>
+              <![CDATA[Entering the send icon]]>
+            </line>
+            <line>
+              <![CDATA[checking the next question text here if it matches, then closing the bot]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- insta -->
+      </class> <!-- forwardparcelinsta.Forward_Insta -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
