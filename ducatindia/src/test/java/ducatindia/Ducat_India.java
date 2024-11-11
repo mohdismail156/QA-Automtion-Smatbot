@@ -12,8 +12,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Ducat_India {
 	@Test
 	public void ducat() throws Exception {
-		WebDriverManager.chromedriver().setup();
-//	    	System.setProperty("webdriver.chrome.driver", "D:\\chromedriver123\\chromedriver-win64\\chromedriver.exe");
+		// WebDriverManager.chromedriver().setup();
+	    	System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://ducatindia.com/");
