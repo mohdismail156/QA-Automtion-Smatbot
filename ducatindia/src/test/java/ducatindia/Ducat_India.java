@@ -12,13 +12,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Ducat_India {
 	@Test
 	public void ducat() throws Exception {
-		// WebDriverManager.chromedriver().setup();
-	    	System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+		WebDriverManager.chromedriver().setup();
+	    	// System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		// WebDriver driver = new ChromeDriver();
 		ChromeOptions options = new ChromeOptions();
-options.addArguments("--headless");
-options.addArguments("--no-sandbox");
-options.addArguments("--disable-dev-shm-usage");
+                options.addArguments("--headless");
+                options.addArguments("--no-sandbox");
+                options.addArguments("--disable-dev-shm-usage");
 
 WebDriver driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
