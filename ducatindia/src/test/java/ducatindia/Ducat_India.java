@@ -14,7 +14,7 @@ public class Ducat_India {
 	public void ducat() throws Exception {
 		WebDriverManager.chromedriver().setup();
 	    	// System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
-		// WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		ChromeOptions options = new ChromeOptions();
                 options.addArguments("--headless");
                 options.addArguments("--no-sandbox");
