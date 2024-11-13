@@ -20,6 +20,13 @@
             <artifactId>selenium-java</artifactId>
             <version>4.17.0</version>
         </dependency>
+    <!-- Selenium Java Dependency -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.12.1</version> <!-- Use the latest compatible version -->
+    </dependency>
+
 
         <!-- TestNG for testing -->
         <dependency>
