@@ -14,12 +14,6 @@
     </properties>
 
     <dependencies>
-        <!-- Selenium Java dependency -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>4.17.0</version>
-        </dependency>
     <!-- Selenium Java Dependency -->
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
